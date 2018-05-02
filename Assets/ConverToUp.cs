@@ -1,21 +1,28 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
-public class ConverToUp : MonoBehaviour
+public class ConverToUp : MonoBehaviour, IPointerEnterHandler
 {
-
-	private Text _text;
+	public Sprite HighlightSprite;
+	private Image _butt;
 	void Start ()
 	{
-		_text = GetComponent<Text>();
+		_butt= GetComponent<Image>();
+		_butt.CrossFadeAlpha(0,0,true);
 	}
 	
 	// Update is called once per frame
-	void Update ()
+	void OnMouseOver ()
 	{
-	_text.text.ToUpper();
-      
+
+	}
+
+	public void OnPointerEnter(PointerEventData pointEvent)
+	{
+		_butt.CrossFadeAlpha(255,0,true);
+		_butt.sprite = HighlightSprite;
 	}
 }
