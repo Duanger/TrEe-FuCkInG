@@ -1,0 +1,24 @@
+fileFormatVersion: 2
+guid: e84bc64f2e4b57a4885751b8f60b585a
+timeCreated: 1525219979
+licenseType: Free
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Gaegu
+  fontNames:
+  - Gaegu
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: cf24fa0ddf7e0254a9749b7907023c96, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
