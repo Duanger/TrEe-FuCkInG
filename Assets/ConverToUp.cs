@@ -7,10 +7,11 @@ using UnityEngine.UI;
 public class ConverToUp : MonoBehaviour, IPointerEnterHandler
 {
 	public Sprite HighlightSprite;
-	private Image _butt;
+	//public RectTransform Button1TextRect;
+	private Text _butt;
 	void Start ()
 	{
-		_butt= GetComponent<Image>();
+		_butt= GetComponent<Text>();
 		_butt.CrossFadeAlpha(0,0,true);
 	}
 	
@@ -23,6 +24,7 @@ public class ConverToUp : MonoBehaviour, IPointerEnterHandler
 	public void OnPointerEnter(PointerEventData pointEvent)
 	{
 		_butt.CrossFadeAlpha(255,0,true);
-		_butt.sprite = HighlightSprite;
+		//_butt.sprite.rect = Button1TextRect;
+		_butt.transform.parent.GetComponent<Image>().sprite = HighlightSprite;
 	}
 }

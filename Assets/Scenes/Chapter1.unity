@@ -997,7 +997,6 @@ GameObject:
   - component: {fileID: 389019256}
   - component: {fileID: 389019255}
   - component: {fileID: 389019254}
-  - component: {fileID: 389019258}
   m_Layer: 5
   m_Name: OptionButton0
   m_TagString: Untagged
@@ -1040,7 +1039,7 @@ MonoBehaviour:
   m_IgnoreLayout: 0
   m_MinWidth: -1
   m_MinHeight: -1
-  m_PreferredWidth: -1
+  m_PreferredWidth: 100
   m_PreferredHeight: 100
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
@@ -1123,18 +1122,6 @@ CanvasRenderer:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 389019252}
---- !u!114 &389019258
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 389019252}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1cdcc65a59bc25740834874a4cbc575d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  HighlightSprite: {fileID: 21300000, guid: 0a49829ff3f80544e88d359790935a89, type: 3}
 --- !u!1 &395463574
 GameObject:
   m_ObjectHideFlags: 0
@@ -1430,6 +1417,10 @@ GameObject:
   - component: {fileID: 446358724}
   - component: {fileID: 446358720}
   - component: {fileID: 446358715}
+  - component: {fileID: 446358726}
+  - component: {fileID: 446358727}
+  - component: {fileID: 446358731}
+  - component: {fileID: 446358732}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -1450,11 +1441,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -224.62207, y: -77.354004}
+  scrollPos: {x: 1464.1127, y: 264.5291}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 0.766
+  zoom: 0.25
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -1462,9 +1453,10 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 446358614}
+  - {fileID: 446358548}
   selectedCommands: []
-  variables: []
+  variables:
+  - {fileID: 446358726}
   description: 
   stepPause: 0
   colorCommands: 1
@@ -1518,7 +1510,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 101
     y: 91
-    width: 120
+    width: 122
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1527,6 +1519,7 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 446358551}
   commandList:
+  - {fileID: 446358727}
   - {fileID: 446358550}
   - {fileID: 446358704}
   - {fileID: 446358549}
@@ -1698,7 +1691,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 254.4652
     y: 171.8219
-    width: 145.30026
+    width: 162
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1932,7 +1925,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 431.53415
     y: 246.97372
-    width: 170.10445
+    width: 194
     height: 40
   tint: {r: 0.6397059, g: 0.48918685, b: 0.61064017, a: 1}
   useCustomTint: 1
@@ -1941,6 +1934,7 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
+  - {fileID: 446358731}
   - {fileID: 446358709}
   - {fileID: 446358568}
   - {fileID: 446358567}
@@ -2068,7 +2062,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 244.85794
     y: 296.11102
-    width: 123.107056
+    width: 134
     height: 40
   tint: {r: 0.6397059, g: 0, b: 0, a: 1}
   useCustomTint: 1
@@ -2077,6 +2071,7 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
+  - {fileID: 446358732}
   - {fileID: 446358579}
   - {fileID: 446358587}
   - {fileID: 446358730}
@@ -2336,7 +2331,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 258.31253
     y: 730.8725
-    width: 120
+    width: 134
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2904,7 +2899,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 735.515
     y: 494.86917
-    width: 124.41254
+    width: 138
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 1
@@ -3055,7 +3050,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1050.1202
     y: 272.1021
-    width: 154.43864
+    width: 178
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 1
@@ -4264,7 +4259,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 916.14105
     y: 522.69653
-    width: 120
+    width: 130
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 1
@@ -5949,6 +5944,47 @@ MonoBehaviour:
   volume: 0
   fadeDuration: 0
   waitUntilFinished: 1
+--- !u!114 &446358726
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 446358545}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 705fa1ac97df74e3a84ff952ffd923f1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scope: 1
+  key: AshVolume
+  value: 0
+--- !u!114 &446358727
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 446358545}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb77d0ce495044f6e9feb91b31798e8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 222
+  indentLevel: 0
+  variable: {fileID: 446358726}
+  setOperator: 2
+  booleanData:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  integerData:
+    integerRef: {fileID: 0}
+    integerVal: 0
+  floatData:
+    floatRef: {fileID: 0}
+    floatVal: 0.1
+  stringData:
+    stringRef: {fileID: 0}
+    stringVal: 
 --- !u!114 &446358728
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -5991,6 +6027,60 @@ MonoBehaviour:
   itemId: 184
   indentLevel: 0
   sayDialog: {fileID: 315526389}
+--- !u!114 &446358731
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 446358545}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb77d0ce495044f6e9feb91b31798e8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 223
+  indentLevel: 0
+  variable: {fileID: 446358726}
+  setOperator: 2
+  booleanData:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  integerData:
+    integerRef: {fileID: 0}
+    integerVal: 0
+  floatData:
+    floatRef: {fileID: 0}
+    floatVal: 0.1
+  stringData:
+    stringRef: {fileID: 0}
+    stringVal: 
+--- !u!114 &446358732
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 446358545}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb77d0ce495044f6e9feb91b31798e8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 224
+  indentLevel: 0
+  variable: {fileID: 446358726}
+  setOperator: 0
+  booleanData:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  integerData:
+    integerRef: {fileID: 0}
+    integerVal: 0
+  floatData:
+    floatRef: {fileID: 0}
+    floatVal: 0.3
+  stringData:
+    stringRef: {fileID: 0}
+    stringVal: 
 --- !u!114 &446358734
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -6674,6 +6764,7 @@ GameObject:
   - component: {fileID: 765790702}
   - component: {fileID: 765790704}
   - component: {fileID: 765790703}
+  - component: {fileID: 765790705}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -6741,6 +6832,18 @@ CanvasRenderer:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 765790701}
+--- !u!114 &765790705
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 765790701}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1cdcc65a59bc25740834874a4cbc575d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  HighlightSprite: {fileID: 21300000, guid: 0a49829ff3f80544e88d359790935a89, type: 3}
 --- !u!1 &804179410
 GameObject:
   m_ObjectHideFlags: 0
@@ -8036,6 +8139,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1688886609}
   - component: {fileID: 1688886608}
+  - component: {fileID: 1688886610}
   m_Layer: 0
   m_Name: Blizzard
   m_TagString: Untagged
@@ -8136,6 +8240,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1688886610
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1688886607}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae9d6baea9991fa489c7728819f4a393, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Chapter1Flowchart: {fileID: 446358546}
 --- !u!1 &1707611814
 GameObject:
   m_ObjectHideFlags: 0
