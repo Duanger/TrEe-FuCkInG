@@ -832,6 +832,7 @@
           </e>
         </e>
         <e p="Highlightable.cs" t="Include" />
+        <e p="ImageAnimation.cs" t="Include" />
         <e p="MenuCanvasHandler.cs" t="Include" />
         <e p="Plugins" t="Include">
           <e p="Editor" t="Include">
