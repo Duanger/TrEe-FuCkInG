@@ -163,11 +163,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4404918155563468, guid: 05f19e02aef4f0c45ba7cdc9f7f07a15, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 17.94
+      value: 998
       objectReference: {fileID: 0}
     - target: {fileID: 4404918155563468, guid: 05f19e02aef4f0c45ba7cdc9f7f07a15, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4404918155563468, guid: 05f19e02aef4f0c45ba7cdc9f7f07a15, type: 2}
       propertyPath: m_LocalPosition.z
@@ -193,6 +193,17 @@ Prefab:
       propertyPath: m_RootOrder
       value: 8
       objectReference: {fileID: 0}
+    - target: {fileID: 114299815421373010, guid: 05f19e02aef4f0c45ba7cdc9f7f07a15,
+        type: 2}
+      propertyPath: portraits.Array.data[0]
+      value: 
+      objectReference: {fileID: 21300000, guid: 6d274b9ef0c61274394613ffd48b06ba,
+        type: 3}
+    - target: {fileID: 114299815421373010, guid: 05f19e02aef4f0c45ba7cdc9f7f07a15,
+        type: 2}
+      propertyPath: setSayDialog
+      value: 
+      objectReference: {fileID: 706631017}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 05f19e02aef4f0c45ba7cdc9f7f07a15, type: 2}
   m_IsPrefabParent: 0
@@ -428,9 +439,18 @@ Prefab:
       propertyPath: m_SizeDelta.y
       value: 365
       objectReference: {fileID: 0}
+    - target: {fileID: 1873635040485446, guid: b01d5f0781e7d9f458dd373d6ed645e2, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b01d5f0781e7d9f458dd373d6ed645e2, type: 2}
   m_IsPrefabParent: 0
+--- !u!224 &201336575 stripped
+RectTransform:
+  m_PrefabParentObject: {fileID: 224882613648982886, guid: 1c59895eacc42544283367d28ce0a3c9,
+    type: 2}
+  m_PrefabInternal: {fileID: 1221056011}
 --- !u!1 &222131187
 GameObject:
   m_ObjectHideFlags: 0
@@ -603,9 +623,20 @@ Prefab:
       propertyPath: m_Pivot.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 224139720230838040, guid: 7a77b224131c6ca49add16fcd675660e,
+        type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: -751
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7a77b224131c6ca49add16fcd675660e, type: 2}
   m_IsPrefabParent: 0
+--- !u!114 &706631017 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 114069689302790872, guid: 7a77b224131c6ca49add16fcd675660e,
+    type: 2}
+  m_PrefabInternal: {fileID: 642803981}
+  m_Script: {fileID: 11500000, guid: 3a0bbe22c246e4c78ad8e9816cbae9d5, type: 3}
 --- !u!1001 &791417659
 Prefab:
   m_ObjectHideFlags: 0
@@ -706,6 +737,12 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d12d289d5dff4264da820e4cfecdce22, type: 2}
   m_IsPrefabParent: 0
+--- !u!114 &794733669 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 114284354579409668, guid: b01d5f0781e7d9f458dd373d6ed645e2,
+    type: 2}
+  m_PrefabInternal: {fileID: 168889205}
+  m_Script: {fileID: 11500000, guid: ee8371d2b2fe14a9ca0a9465140027de, type: 3}
 --- !u!1001 &876742039
 Prefab:
   m_ObjectHideFlags: 0
@@ -819,6 +856,12 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!114 &1163020748 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 114299815421373010, guid: 05f19e02aef4f0c45ba7cdc9f7f07a15,
+    type: 2}
+  m_PrefabInternal: {fileID: 120325145}
+  m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
 --- !u!1001 &1221056011
 Prefab:
   m_ObjectHideFlags: 0
@@ -858,6 +901,31 @@ Prefab:
       propertyPath: m_RootOrder
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 1634986013291436, guid: 1c59895eacc42544283367d28ce0a3c9, type: 2}
+      propertyPath: m_Name
+      value: Scene2Background
+      objectReference: {fileID: 0}
+    - target: {fileID: 114133069147019334, guid: 1c59895eacc42544283367d28ce0a3c9,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 5f620eb5c649e8346a16ca69005df238,
+        type: 3}
+    - target: {fileID: 224882613648982886, guid: 1c59895eacc42544283367d28ce0a3c9,
+        type: 2}
+      propertyPath: m_AnchoredPosition.y
+      value: -1204
+      objectReference: {fileID: 0}
+    - target: {fileID: 224882613648982886, guid: 1c59895eacc42544283367d28ce0a3c9,
+        type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: 623
+      objectReference: {fileID: 0}
+    - target: {fileID: 224511352210370254, guid: 1c59895eacc42544283367d28ce0a3c9,
+        type: 2}
+      propertyPath: m_AnchoredPosition.y
+      value: -1202
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1c59895eacc42544283367d28ce0a3c9, type: 2}
   m_IsPrefabParent: 0
@@ -872,7 +940,32 @@ GameObject:
   - component: {fileID: 1320476160}
   - component: {fileID: 1320476159}
   - component: {fileID: 1320476158}
+  - component: {fileID: 1320476163}
   - component: {fileID: 1320476162}
+  - component: {fileID: 1320476166}
+  - component: {fileID: 1320476165}
+  - component: {fileID: 1320476164}
+  - component: {fileID: 1320476167}
+  - component: {fileID: 1320476187}
+  - component: {fileID: 1320476186}
+  - component: {fileID: 1320476185}
+  - component: {fileID: 1320476184}
+  - component: {fileID: 1320476183}
+  - component: {fileID: 1320476182}
+  - component: {fileID: 1320476181}
+  - component: {fileID: 1320476169}
+  - component: {fileID: 1320476180}
+  - component: {fileID: 1320476179}
+  - component: {fileID: 1320476177}
+  - component: {fileID: 1320476176}
+  - component: {fileID: 1320476175}
+  - component: {fileID: 1320476174}
+  - component: {fileID: 1320476173}
+  - component: {fileID: 1320476172}
+  - component: {fileID: 1320476170}
+  - component: {fileID: 1320476168}
+  - component: {fileID: 1320476171}
+  - component: {fileID: 1320476178}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -908,18 +1001,31 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 67
-    y: 70
+    x: 64
+    y: 71
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 0
-  blockName: New Block
+  blockName: EnterThot
   description: 
   eventHandler: {fileID: 1320476158}
   commandList:
+  - {fileID: 1320476164}
+  - {fileID: 1320476163}
   - {fileID: 1320476162}
+  - {fileID: 1320476166}
+  - {fileID: 1320476165}
+  - {fileID: 1320476167}
+  - {fileID: 1320476187}
+  - {fileID: 1320476186}
+  - {fileID: 1320476185}
+  - {fileID: 1320476184}
+  - {fileID: 1320476183}
+  - {fileID: 1320476182}
+  - {fileID: 1320476181}
+  - {fileID: 1320476179}
 --- !u!114 &1320476160
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -933,10 +1039,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 0, y: 0}
+  scrollPos: {x: -132, y: 45}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
-  blockViewHeight: 400
+  blockViewHeight: 404
   zoom: 1
   scrollViewRect:
     serializedVersion: 2
@@ -945,9 +1051,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1320476159}
+  - {fileID: 1320476169}
   selectedCommands:
-  - {fileID: 1320476162}
+  - {fileID: 1320476168}
   variables: []
   description: 
   stepPause: 0
@@ -974,7 +1080,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1320476162
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1320476157}
@@ -983,12 +1089,643 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 1
+  itemId: 3
   indentLevel: 0
-  storyText: titties
+  storyText: "Briar comes out of the store, pulling his own bandanna over his face.\r\n"
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 1673435109}
+--- !u!114 &1320476163
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1320476157}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 2
+  indentLevel: 0
+  storyText: Aspen lounges against the car outside of the gas station, a bandanna
+    around his mouth to keep the ash out.
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 1673435109}
+--- !u!114 &1320476164
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1320476157}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 6
+  indentLevel: 0
+  display: 1
+  stage: {fileID: 0}
+  character: {fileID: 908365374}
+  replacedCharacter: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 6a6da6ce732d7a24fb5369403fa93567, type: 3}
+  offset: 0
+  fromPosition: {fileID: 0}
+  toPosition: {fileID: 1799111853}
+  facing: 0
+  useDefaultSettings: 1
+  fadeDuration: 0.5
+  moveDuration: 1
+  shiftOffset: {x: 0, y: 0}
+  move: 0
+  shiftIntoPlace: 0
+  waitUntilFinished: 1
+--- !u!114 &1320476165
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1320476157}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 5
+  indentLevel: 0
+  storyText: Hey, catch.
+  description: 
+  character: {fileID: 1163020748}
+  portrait: {fileID: 21300000, guid: 6d274b9ef0c61274394613ffd48b06ba, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 706631017}
+--- !u!114 &1320476166
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1320476157}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 4
+  indentLevel: 0
+  display: 1
+  stage: {fileID: 0}
+  character: {fileID: 1163020748}
+  replacedCharacter: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 6d274b9ef0c61274394613ffd48b06ba, type: 3}
+  offset: 0
+  fromPosition: {fileID: 1792425984}
+  toPosition: {fileID: 201336575}
+  facing: 0
+  useDefaultSettings: 1
+  fadeDuration: 0.5
+  moveDuration: 1
+  shiftOffset: {x: 0, y: 0}
+  move: 1
+  shiftIntoPlace: 0
+  waitUntilFinished: 1
+--- !u!114 &1320476167
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1320476157}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 7
+  indentLevel: 0
+  storyText: Briar tosses over a water bottle to Aspen, who curses as he fumbles to
+    catch it.
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 1673435109}
+--- !u!114 &1320476168
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1320476157}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 25
+  indentLevel: 0
+  text: You don't know that.
+  description: 
+  targetBlock: {fileID: 0}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+--- !u!114 &1320476169
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1320476157}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 252
+    y: 72
+    width: 120
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 15
+  blockName: FEELSBAD
+  description: 
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 1320476177}
+  - {fileID: 1320476176}
+  - {fileID: 1320476175}
+  - {fileID: 1320476174}
+  - {fileID: 1320476173}
+  - {fileID: 1320476172}
+  - {fileID: 1320476170}
+  - {fileID: 1320476168}
+--- !u!114 &1320476170
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1320476157}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 24
+  indentLevel: 0
+  text: Yeah, I suppose we did pack a lot.
+  description: 
+  targetBlock: {fileID: 1320476171}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+--- !u!114 &1320476171
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1320476157}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 454
+    y: 65
+    width: 120
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 26
+  blockName: packsathoot
+  description: 
+  eventHandler: {fileID: 0}
+  commandList: []
+--- !u!114 &1320476172
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1320476157}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 23
+  indentLevel: 0
+  storyText: "We\u2019re not gonna run out."
   description: 
   character: {fileID: 908365374}
-  portrait: {fileID: 21300000, guid: d516e01ed674a734fbf1de8f244e5c60, type: 3}
+  portrait: {fileID: 21300000, guid: 6a6da6ce732d7a24fb5369403fa93567, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1320476173
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1320476157}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 22
+  indentLevel: 0
+  storyText: 'Like, what if we run out of food? Or water? '
+  description: 
+  character: {fileID: 1163020748}
+  portrait: {fileID: 21300000, guid: 6d274b9ef0c61274394613ffd48b06ba, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1320476174
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1320476157}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 21
+  indentLevel: 0
+  storyText: What do you mean?
+  description: 
+  character: {fileID: 908365374}
+  portrait: {fileID: 21300000, guid: 6a6da6ce732d7a24fb5369403fa93567, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1320476175
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1320476157}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 20
+  indentLevel: 0
+  storyText: "What do we do though?\u2026If more places are shutting down?"
+  description: 
+  character: {fileID: 1163020748}
+  portrait: {fileID: 21300000, guid: 6d274b9ef0c61274394613ffd48b06ba, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1320476176
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1320476157}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3315ad2ebb85443909a1203d56d9344e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 19
+  indentLevel: 0
+  _duration:
+    floatRef: {fileID: 0}
+    floatVal: 1.5
+  durationOLD: 0
+--- !u!114 &1320476177
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1320476157}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 18
+  indentLevel: 0
+  storyText: Oh, ouch.
+  description: 
+  character: {fileID: 908365374}
+  portrait: {fileID: 21300000, guid: 6a6da6ce732d7a24fb5369403fa93567, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1320476178
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1320476157}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 451
+    y: 123
+    width: 120
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 27
+  blockName: dunnoman
+  description: 
+  eventHandler: {fileID: 0}
+  commandList: []
+--- !u!114 &1320476179
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1320476157}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 17
+  indentLevel: 0
+  text: 'It makes me kinda sad actually. '
+  description: 
+  targetBlock: {fileID: 1320476180}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+--- !u!114 &1320476180
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1320476157}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 266
+    y: 128
+    width: 120
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 16
+  blockName: sadkeanu
+  description: 
+  eventHandler: {fileID: 0}
+  commandList: []
+--- !u!114 &1320476181
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1320476157}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 14
+  indentLevel: 0
+  text: "Well I wouldn\u2019t go that far"
+  description: 
+  targetBlock: {fileID: 1320476169}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+--- !u!114 &1320476182
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1320476157}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b097b9790a8a1456a86bc4d322b487db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 13
+  indentLevel: 0
+  menuDialog: {fileID: 794733669}
+--- !u!114 &1320476183
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1320476157}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 12
+  indentLevel: 0
+  storyText: "Guess I\u2019m not the only sensible person left in the world then. "
+  description: 
+  character: {fileID: 908365374}
+  portrait: {fileID: 21300000, guid: 6a6da6ce732d7a24fb5369403fa93567, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1320476184
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1320476157}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 11
+  indentLevel: 0
+  storyText: "Yeah, i suppose she\u2019s like you and doesn\u2019t care about money
+    anymore."
+  description: 
+  character: {fileID: 1163020748}
+  portrait: {fileID: 21300000, guid: 6d274b9ef0c61274394613ffd48b06ba, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1320476185
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1320476157}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 10
+  indentLevel: 0
+  storyText: 'Seriously? '
+  description: 
+  character: {fileID: 908365374}
+  portrait: {fileID: 21300000, guid: 6a6da6ce732d7a24fb5369403fa93567, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1320476186
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1320476157}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 9
+  indentLevel: 0
+  storyText: "The manager gave them to me for free - the gas too. Said she\u2019s
+    shutting the place down soon."
+  description: 
+  character: {fileID: 1163020748}
+  portrait: {fileID: 21300000, guid: 6d274b9ef0c61274394613ffd48b06ba, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1320476187
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1320476157}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 8
+  indentLevel: 0
+  storyText: "Why\u2019d you buy water? We\u2019ve still got a lot left."
+  description: 
+  character: {fileID: 908365374}
+  portrait: {fileID: 21300000, guid: 6a6da6ce732d7a24fb5369403fa93567, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1155,6 +1892,22 @@ MonoBehaviour:
   spritePerFrame: 1
   loop: 0
   destroyOnEnd: 0
+--- !u!114 &1673435109 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 114975028995155370, guid: d12d289d5dff4264da820e4cfecdce22,
+    type: 2}
+  m_PrefabInternal: {fileID: 791417659}
+  m_Script: {fileID: 11500000, guid: 3a0bbe22c246e4c78ad8e9816cbae9d5, type: 3}
+--- !u!224 &1792425984 stripped
+RectTransform:
+  m_PrefabParentObject: {fileID: 224511352210370254, guid: 1c59895eacc42544283367d28ce0a3c9,
+    type: 2}
+  m_PrefabInternal: {fileID: 1221056011}
+--- !u!224 &1799111853 stripped
+RectTransform:
+  m_PrefabParentObject: {fileID: 224368483735908816, guid: 1c59895eacc42544283367d28ce0a3c9,
+    type: 2}
+  m_PrefabInternal: {fileID: 1221056011}
 --- !u!1001 &2082474807
 Prefab:
   m_ObjectHideFlags: 0
@@ -1162,6 +1915,11 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 114527543678130902, guid: 46002a64ddd0e9b4eb9629296781a483,
+        type: 2}
+      propertyPath: portraits.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4304048710800242, guid: 46002a64ddd0e9b4eb9629296781a483, type: 2}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -1199,6 +1957,24 @@ Prefab:
       propertyPath: setSayDialog
       value: 
       objectReference: {fileID: 1465817618}
+    - target: {fileID: 114527543678130902, guid: 46002a64ddd0e9b4eb9629296781a483,
+        type: 2}
+      propertyPath: portraits.Array.data[0]
+      value: 
+      objectReference: {fileID: 21300000, guid: 6a6da6ce732d7a24fb5369403fa93567,
+        type: 3}
+    - target: {fileID: 114527543678130902, guid: 46002a64ddd0e9b4eb9629296781a483,
+        type: 2}
+      propertyPath: portraits.Array.data[1]
+      value: 
+      objectReference: {fileID: 21300000, guid: 7b0372ce6f66be546a3ad3a08037e50c,
+        type: 3}
+    - target: {fileID: 114527543678130902, guid: 46002a64ddd0e9b4eb9629296781a483,
+        type: 2}
+      propertyPath: portraits.Array.data[2]
+      value: 
+      objectReference: {fileID: 21300000, guid: 7b0372ce6f66be546a3ad3a08037e50c,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 46002a64ddd0e9b4eb9629296781a483, type: 2}
   m_IsPrefabParent: 0
