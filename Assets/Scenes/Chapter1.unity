@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657892, g: 0.4964127, b: 0.5748172, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -387,8 +387,6 @@ GameObject:
   - component: {fileID: 446358694}
   - component: {fileID: 446358693}
   - component: {fileID: 446358692}
-  - component: {fileID: 446358685}
-  - component: {fileID: 446358684}
   - component: {fileID: 446358683}
   - component: {fileID: 446358682}
   - component: {fileID: 446358681}
@@ -406,7 +404,6 @@ GameObject:
   - component: {fileID: 446358668}
   - component: {fileID: 446358667}
   - component: {fileID: 446358665}
-  - component: {fileID: 446358663}
   - component: {fileID: 446358661}
   - component: {fileID: 446358703}
   - component: {fileID: 446358704}
@@ -457,8 +454,6 @@ GameObject:
   - component: {fileID: 446358743}
   - component: {fileID: 446358742}
   - component: {fileID: 446358734}
-  - component: {fileID: 446358662}
-  - component: {fileID: 446358638}
   - component: {fileID: 446358721}
   - component: {fileID: 446358709}
   - component: {fileID: 446358664}
@@ -468,15 +463,21 @@ GameObject:
   - component: {fileID: 446358738}
   - component: {fileID: 446358691}
   - component: {fileID: 446358690}
-  - component: {fileID: 446358689}
-  - component: {fileID: 446358688}
-  - component: {fileID: 446358687}
   - component: {fileID: 446358673}
   - component: {fileID: 446358660}
   - component: {fileID: 446358659}
   - component: {fileID: 446358747}
   - component: {fileID: 446358751}
   - component: {fileID: 446358749}
+  - component: {fileID: 446358689}
+  - component: {fileID: 446358688}
+  - component: {fileID: 446358687}
+  - component: {fileID: 446358685}
+  - component: {fileID: 446358684}
+  - component: {fileID: 446358753}
+  - component: {fileID: 446358663}
+  - component: {fileID: 446358662}
+  - component: {fileID: 446358638}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -497,11 +498,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -129.49878, y: -215.58392}
+  scrollPos: {x: 109.55803, y: -365.06485}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 1
+  zoom: 0.5294789
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -509,7 +510,7 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 446358600}
+  - {fileID: 446358694}
   selectedCommands: []
   variables:
   - {fileID: 446358726}
@@ -699,8 +700,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 14
   indentLevel: 0
-  storyText: "Why do these places even take money anymore? Don\u2019t they think they
-    should stop passing the buck and huddle up? Heh."
+  storyText: 'Why do these places even take money anymore? I mean, the world is ending-
+    none of this really matters, right? '
   description: 
   character: {fileID: 1667063899}
   portrait: {fileID: 0}
@@ -740,9 +741,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 256.81815
-    y: 170.64543
-    width: 154
+    x: 257.81815
+    y: 164.64543
+    width: 136.87787
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -773,7 +774,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 10
   indentLevel: 0
-  text: Nah.
+  text: I'm okay.
   description: 
   targetBlock: {fileID: 446358556}
   hideIfVisited: 0
@@ -930,7 +931,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 18
   indentLevel: 0
-  text: Yup.
+  text: Yeah, you're right.
   description: 
   targetBlock: {fileID: 446358565}
   hideIfVisited: 0
@@ -954,7 +955,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 17
   indentLevel: 0
-  text: "You know what they say about commodity fetishists\u2026.. "
+  text: "I don\u2019t trust society enough. We\u2019d all descend into chaos."
   description: 
   targetBlock: {fileID: 446358740}
   hideIfVisited: 0
@@ -979,8 +980,8 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 432.71063
-    y: 243.44432
-    width: 182
+    y: 226.44432
+    width: 171.81789
     height: 40
   tint: {r: 0.6397059, g: 0.48918685, b: 0.61064017, a: 1}
   useCustomTint: 1
@@ -1009,7 +1010,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 15
   indentLevel: 0
-  text: Choke. On. It.
+  text: I think the order comforts people.
   description: 
   targetBlock: {fileID: 446358565}
   hideIfVisited: 0
@@ -1035,7 +1036,7 @@ MonoBehaviour:
   indentLevel: 0
   _duration:
     floatRef: {fileID: 0}
-    floatVal: 5
+    floatVal: 3
   durationOLD: 0
 --- !u!114 &446358568
 MonoBehaviour:
@@ -1100,7 +1101,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 244.85794
     y: 296.11102
-    width: 133
+    width: 122.713
     height: 40
   tint: {r: 0.6397059, g: 0, b: 0, a: 1}
   useCustomTint: 1
@@ -1134,7 +1135,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 24
   indentLevel: 0
-  text: Dunno, I kinda like it. You gotta find hope where you can.
+  text: I kinda like it. You gotta find hope where you can.
   description: 
   targetBlock: {fileID: 446358572}
   hideIfVisited: 0
@@ -1188,7 +1189,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 22
   indentLevel: 0
-  text: I just need something on.
+  text: I just need to listen to something.
   description: 
   targetBlock: {fileID: 446358574}
   hideIfVisited: 0
@@ -1212,8 +1213,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 832.1717
-    y: 201.86134
+    x: 797.90186
+    y: 151.99461
     width: 120
     height: 40
   tint: {r: 0.6397059, g: 0, b: 0, a: 1}
@@ -1263,7 +1264,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 30
   indentLevel: 0
-  text: What do you know?
+  text: What's on the set list?
   description: 
   targetBlock: {fileID: 446358614}
   hideIfVisited: 0
@@ -1287,9 +1288,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 26
   indentLevel: 0
-  storyText: 'I could... sing?
-
-'
+  storyText: Want me to sing?
   description: 
   character: {fileID: 1667063899}
   portrait: {fileID: 0}
@@ -1341,7 +1340,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 34
   indentLevel: 0
-  storyText: Believe what you want, shit is shit.
+  storyText: Believe what you want - I think it's nonsense.
   description: 
   character: {fileID: 1667063899}
   portrait: {fileID: 0}
@@ -1369,7 +1368,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 258.31253
     y: 730.8725
-    width: 123
+    width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1505,8 +1504,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 37
   indentLevel: 0
-  storyText: "Perhaps. I'd like to believe there\u2019s some kind of force out there
-    that knows where this is going, but it's probably not him."
+  storyText: "Mabye. I'd like to believe there\u2019s some kind of force out there
+    that knows where this is going, but it's probably not this guy."
   description: 
   character: {fileID: 1799023055}
   portrait: {fileID: 0}
@@ -1920,7 +1919,7 @@ MonoBehaviour:
   commandList:
   - {fileID: 446358597}
   - {fileID: 446358596}
-  - {fileID: 446358663}
+  - {fileID: 446358753}
   - {fileID: 446358595}
 --- !u!114 &446358601
 MonoBehaviour:
@@ -1935,9 +1934,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 678.1986
-    y: 543.649
-    width: 130
+    x: 663.08966
+    y: 547.42615
+    width: 120.82435
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 1
@@ -1986,7 +1985,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 54
   indentLevel: 0
-  text: I didn't know you liked hymns?
+  text: I didn't think you liked this sort of thing.
   description: 
   targetBlock: {fileID: 446358601}
   hideIfVisited: 0
@@ -2089,7 +2088,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1050.1202
     y: 272.1021
-    width: 165
+    width: 151.04274
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 1
@@ -2253,7 +2252,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 44
   indentLevel: 0
-  storyText: What you into?
+  storyText: What are you into?
   description: 
   character: {fileID: 1667063899}
   portrait: {fileID: 0}
@@ -2336,7 +2335,7 @@ MonoBehaviour:
   indentLevel: 0
   _duration:
     floatRef: {fileID: 0}
-    floatVal: 5
+    floatVal: 3
   durationOLD: 0
 --- !u!114 &446358617
 MonoBehaviour:
@@ -2453,7 +2452,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 107
   indentLevel: 0
-  storyText: Aspen laughs, his chest spasming with each laugh.
+  storyText: Aspen laughs, his chest heaving.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -2721,7 +2720,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 97
   indentLevel: 0
-  text: You're smelly, but can share food.
+  text: Sometimes you give me food. But you also smell.
   description: 
   targetBlock: {fileID: 446358628}
   hideIfVisited: 0
@@ -2745,7 +2744,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 96
   indentLevel: 0
-  text: You have been hurt but still know when to be vulnerable.
+  text: You've been hurt, but still know when to be vulnerable.
   description: 
   targetBlock: {fileID: 446358629}
   hideIfVisited: 0
@@ -2769,7 +2768,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 95
   indentLevel: 0
-  text: You have always been there for me.
+  text: You've always been there for me.
   description: 
   targetBlock: {fileID: 446358630}
   hideIfVisited: 0
@@ -2819,7 +2818,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 93
   indentLevel: 0
-  storyText: It's too depressing if I didn't.
+  storyText: It's too depressing not to.
   description: 
   character: {fileID: 1799023055}
   portrait: {fileID: 0}
@@ -2884,7 +2883,7 @@ MonoBehaviour:
     booleanVal: 0
 --- !u!114 &446358638
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 446358545}
@@ -2893,11 +2892,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 247
+  itemId: 275
   indentLevel: 0
-  storyText: Um.. Sounds very pleasant?
+  storyText: We should get gas.
   description: 
-  character: {fileID: 1799023055}
+  character: {fileID: 1667063899}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -2945,8 +2944,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 88
   indentLevel: 0
-  storyText: "If there\u2019s a heaven, I demand to be sandwiched between David Bowie
-    and Freddie Mercury."
+  storyText: "If there\u2019s a heaven, David Bowie will be playing concerts constantly
+    and there\u2019ll be an endless supply of pizza and booze."
   description: 
   character: {fileID: 1667063899}
   portrait: {fileID: 0}
@@ -3048,7 +3047,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 84
   indentLevel: 0
-  storyText: Maybe I'll reincarnate into a frog that only sings ragtime tunes.
+  storyText: "Yeah. Maybe in the afterlife I\u2019ll pursue a career as a singer."
   description: 
   character: {fileID: 1667063899}
   portrait: {fileID: 0}
@@ -3074,7 +3073,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 83
   indentLevel: 0
-  storyText: I mean it! You are amazing!!
+  storyText: I mean it! You should do it more.
   description: 
   character: {fileID: 1799023055}
   portrait: {fileID: 0}
@@ -3176,8 +3175,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 77
   indentLevel: 0
-  storyText: "If there\u2019s a heaven, David Bowie will be my plaything and I will
-    drink away these mortal memories."
+  storyText: "If there\u2019s a heaven, David Bowie will be playing concerts constantly
+    and there\u2019ll be an endless supply of pizza and booze."
   description: 
   character: {fileID: 1667063899}
   portrait: {fileID: 0}
@@ -3229,8 +3228,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 1115.2058
-    y: 374.7407
+    x: 1134.0925
+    y: 378.518
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -3244,7 +3243,6 @@ MonoBehaviour:
   - {fileID: 446358642}
   - {fileID: 446358641}
   - {fileID: 446358640}
-  - {fileID: 446358662}
   - {fileID: 446358639}
 --- !u!114 &446358652
 MonoBehaviour:
@@ -3301,7 +3299,6 @@ MonoBehaviour:
   commandList:
   - {fileID: 446358650}
   - {fileID: 446358649}
-  - {fileID: 446358638}
   - {fileID: 446358648}
 --- !u!114 &446358654
 MonoBehaviour:
@@ -3364,7 +3361,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 72
   indentLevel: 0
-  text: Good choice. A verfied jam.
+  text: Good choice. A classic.
   description: 
   targetBlock: {fileID: 446358653}
   hideIfVisited: 0
@@ -3503,30 +3500,21 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &446358662
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 446358545}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Script: {fileID: 11500000, guid: 3315ad2ebb85443909a1203d56d9344e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 246
+  itemId: 274
   indentLevel: 0
-  storyText: Okay...
-  description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
+  _duration:
+    floatRef: {fileID: 0}
+    floatVal: 1
+  durationOLD: 0
 --- !u!114 &446358663
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -3538,9 +3526,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 151
+  itemId: 273
   indentLevel: 0
-  storyText: '...'
+  storyText: Briar smirks teasingly.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -3566,7 +3554,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 250
   indentLevel: 0
-  text: Dunno, I kinda like it. You gotta find hope where you can.
+  text: I kinda like it. You gotta find hope where you can.
   description: 
   targetBlock: {fileID: 446358572}
   hideIfVisited: 0
@@ -3618,7 +3606,7 @@ MonoBehaviour:
   indentLevel: 0
   _duration:
     floatRef: {fileID: 0}
-    floatVal: 3
+    floatVal: 2
   durationOLD: 0
 --- !u!114 &446358667
 MonoBehaviour:
@@ -3633,7 +3621,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 147
   indentLevel: 0
-  storyText: I think I understand.
+  storyText: I know.
   description: 
   character: {fileID: 1799023055}
   portrait: {fileID: 0}
@@ -3659,7 +3647,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 146
   indentLevel: 0
-  storyText: '...For you. Just not for me.'
+  storyText: '...For you. It''s just not that easy for me.'
   description: 
   character: {fileID: 1667063899}
   portrait: {fileID: 0}
@@ -3685,7 +3673,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 145
   indentLevel: 0
-  storyText: Is 'hella briar' hella good?
+  storyText: Is that good?
   description: 
   character: {fileID: 1799023055}
   portrait: {fileID: 0}
@@ -3711,7 +3699,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 144
   indentLevel: 0
-  storyText: "That\u2019s a hella Briar way of looking at things."
+  storyText: "That\u2019s a very...Briar way of looking at things."
   description: 
   character: {fileID: 1667063899}
   portrait: {fileID: 0}
@@ -3818,7 +3806,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 140
   indentLevel: 0
-  storyText: Maybe....
+  storyText: Hah.
   description: 
   character: {fileID: 1667063899}
   portrait: {fileID: 0}
@@ -3948,7 +3936,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 135
   indentLevel: 0
-  storyText: Yeah...We should get gas.
+  storyText: Exactly.
   description: 
   character: {fileID: 1667063899}
   portrait: {fileID: 0}
@@ -4000,7 +3988,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 133
   indentLevel: 0
-  storyText: If nothing matters, then everything does.
+  storyText: "Oblivion means that nothing here matters. It\u2019s freeing."
   description: 
   character: {fileID: 1667063899}
   portrait: {fileID: 0}
@@ -4076,7 +4064,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 130
+  itemId: 271
   indentLevel: 0
   text: "I don\u2019t think of it that way. I like to have something to believe in."
   description: 
@@ -4100,10 +4088,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 129
+  itemId: 270
   indentLevel: 0
-  text: Then we should try to spend the time we have left being as happy as possible,
-    right?
+  text: Then I guess we should do what we can, in the little time we have.
   description: 
   targetBlock: {fileID: 446358695}
   hideIfVisited: 0
@@ -4129,7 +4116,7 @@ MonoBehaviour:
   indentLevel: 0
   _duration:
     floatRef: {fileID: 0}
-    floatVal: 3
+    floatVal: 2
   durationOLD: 0
 --- !u!114 &446358687
 MonoBehaviour:
@@ -4142,11 +4129,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 260
+  itemId: 269
   indentLevel: 0
-  text: Then I guess  memento mori, man. Do what you can, in the little time you have.
+  text: "And that doesn\u2019t scare you?"
   description: 
-  targetBlock: {fileID: 446358695}
+  targetBlock: {fileID: 446358696}
   hideIfVisited: 0
   interactable:
     booleanRef: {fileID: 0}
@@ -4166,10 +4153,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 258
+  itemId: 268
   indentLevel: 0
-  storyText: "We\u2019re all gonna die. Sooner, at this rate. That\u2019s it. No pearly
-    gates, no angels with wings. Poof, then nothing."
+  storyText: "That\u2019s it. No pearly gates, no angels with wings. Poof, then nothing.
+    We\u2019re all gonna die. Sooner than later, at this rate."
   description: 
   character: {fileID: 1667063899}
   portrait: {fileID: 0}
@@ -4193,10 +4180,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 257
+  itemId: 267
   indentLevel: 0
-  storyText: Not really. If you think there's nothing there, and there's certainly
-    nothing here, what do we have?
+  storyText: Not really. But if you think there's nothing there- and there's definitely
+    nothing here- what do we have left?
   description: 
   character: {fileID: 1799023055}
   portrait: {fileID: 0}
@@ -4274,7 +4261,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 122
   indentLevel: 0
-  text: I disagree. Thinking about life in those terms is not useful. Faith is a compass.
+  text: "I don\u2019t think of it that way. I like to have something to believe in."
   description: 
   targetBlock: {fileID: 446358694}
   hideIfVisited: 0
@@ -4298,7 +4285,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 121
   indentLevel: 0
-  text: Then I guess  memento mori, man. Do what you can, in the little time you have.
+  text: Then I guess we should do what we can, in the little time we have.
   description: 
   targetBlock: {fileID: 446358695}
   hideIfVisited: 0
@@ -4367,6 +4354,7 @@ MonoBehaviour:
   - {fileID: 446358678}
   - {fileID: 446358677}
   - {fileID: 446358676}
+  - {fileID: 446358663}
   - {fileID: 446358675}
   - {fileID: 446358674}
   - {fileID: 446358673}
@@ -4402,6 +4390,8 @@ MonoBehaviour:
   - {fileID: 446358681}
   - {fileID: 446358680}
   - {fileID: 446358679}
+  - {fileID: 446358662}
+  - {fileID: 446358638}
 --- !u!114 &446358697
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -4439,8 +4429,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 118
   indentLevel: 0
-  storyText: "We\u2019re all gonna die. Sooner, at this rate. That\u2019s it. No pearly
-    gates, no angels with wings. Poof, then nothing."
+  storyText: "That\u2019s it. No pearly gates, no angels with wings. Poof, then nothing.
+    We\u2019re all gonna die. Sooner than later, at this rate."
   description: 
   character: {fileID: 1667063899}
   portrait: {fileID: 0}
@@ -4466,8 +4456,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 117
   indentLevel: 0
-  storyText: Not really. If you think there's nothing there, and there's certainly
-    nothing here, what do we have?
+  storyText: Not really. But if you think there's nothing there- and there's definitely
+    nothing here- what do we have left?
   description: 
   character: {fileID: 1799023055}
   portrait: {fileID: 0}
@@ -4693,7 +4683,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 249
   indentLevel: 0
-  text: I just need something on.
+  text: I just need to listen to something.
   description: 
   targetBlock: {fileID: 446358574}
   hideIfVisited: 0
@@ -5148,7 +5138,7 @@ MonoBehaviour:
   indentLevel: 0
   _duration:
     floatRef: {fileID: 0}
-    floatVal: 3
+    floatVal: 2
   durationOLD: 0
 --- !u!114 &446358735
 MonoBehaviour:
@@ -5282,8 +5272,8 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 487.0511
-    y: 158.4703
-    width: 128
+    y: 157.4703
+    width: 120.82435
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5369,7 +5359,7 @@ MonoBehaviour:
   indentLevel: 0
   _duration:
     floatRef: {fileID: 0}
-    floatVal: 3
+    floatVal: 2
   durationOLD: 0
 --- !u!114 &446358744
 MonoBehaviour:
@@ -5413,7 +5403,7 @@ MonoBehaviour:
   indentLevel: 0
   _duration:
     floatRef: {fileID: 0}
-    floatVal: 3
+    floatVal: 2
   durationOLD: 0
 --- !u!114 &446358746
 MonoBehaviour:
@@ -5430,11 +5420,11 @@ MonoBehaviour:
   indentLevel: 0
   _duration:
     floatRef: {fileID: 0}
-    floatVal: 3
+    floatVal: 2
   durationOLD: 0
 --- !u!114 &446358747
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 446358545}
@@ -5470,7 +5460,7 @@ MonoBehaviour:
   sayDialog: {fileID: 1528332130}
 --- !u!114 &446358749
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 446358545}
@@ -5506,7 +5496,7 @@ MonoBehaviour:
   sayDialog: {fileID: 1528332130}
 --- !u!114 &446358751
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 446358545}
@@ -5540,6 +5530,23 @@ MonoBehaviour:
   itemId: 190
   indentLevel: 0
   sayDialog: {fileID: 1528332130}
+--- !u!114 &446358753
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 446358545}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3315ad2ebb85443909a1203d56d9344e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 272
+  indentLevel: 0
+  _duration:
+    floatRef: {fileID: 0}
+    floatVal: 2
+  durationOLD: 0
 --- !u!114 &446358754
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -5977,7 +5984,7 @@ Prefab:
     - target: {fileID: 224592126440668998, guid: b01d5f0781e7d9f458dd373d6ed645e2,
         type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -50
       objectReference: {fileID: 0}
     - target: {fileID: 224592126440668998, guid: b01d5f0781e7d9f458dd373d6ed645e2,
         type: 2}
@@ -5987,7 +5994,7 @@ Prefab:
     - target: {fileID: 224592126440668998, guid: b01d5f0781e7d9f458dd373d6ed645e2,
         type: 2}
       propertyPath: m_SizeDelta.y
-      value: 0
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 224914709329745190, guid: b01d5f0781e7d9f458dd373d6ed645e2,
         type: 2}
@@ -6007,7 +6014,7 @@ Prefab:
     - target: {fileID: 224914709329745190, guid: b01d5f0781e7d9f458dd373d6ed645e2,
         type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -155
       objectReference: {fileID: 0}
     - target: {fileID: 224914709329745190, guid: b01d5f0781e7d9f458dd373d6ed645e2,
         type: 2}
@@ -6017,7 +6024,7 @@ Prefab:
     - target: {fileID: 224914709329745190, guid: b01d5f0781e7d9f458dd373d6ed645e2,
         type: 2}
       propertyPath: m_SizeDelta.y
-      value: 0
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 224584579298253682, guid: b01d5f0781e7d9f458dd373d6ed645e2,
         type: 2}
@@ -6037,7 +6044,7 @@ Prefab:
     - target: {fileID: 224584579298253682, guid: b01d5f0781e7d9f458dd373d6ed645e2,
         type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -260
       objectReference: {fileID: 0}
     - target: {fileID: 224584579298253682, guid: b01d5f0781e7d9f458dd373d6ed645e2,
         type: 2}
@@ -6047,7 +6054,7 @@ Prefab:
     - target: {fileID: 224584579298253682, guid: b01d5f0781e7d9f458dd373d6ed645e2,
         type: 2}
       propertyPath: m_SizeDelta.y
-      value: 0
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 224566834728952922, guid: b01d5f0781e7d9f458dd373d6ed645e2,
         type: 2}
@@ -6067,7 +6074,7 @@ Prefab:
     - target: {fileID: 224566834728952922, guid: b01d5f0781e7d9f458dd373d6ed645e2,
         type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -340
       objectReference: {fileID: 0}
     - target: {fileID: 224566834728952922, guid: b01d5f0781e7d9f458dd373d6ed645e2,
         type: 2}
@@ -6077,12 +6084,12 @@ Prefab:
     - target: {fileID: 224566834728952922, guid: b01d5f0781e7d9f458dd373d6ed645e2,
         type: 2}
       propertyPath: m_SizeDelta.y
-      value: 0
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 224990378339418492, guid: b01d5f0781e7d9f458dd373d6ed645e2,
         type: 2}
       propertyPath: m_SizeDelta.y
-      value: 0
+      value: 365
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b01d5f0781e7d9f458dd373d6ed645e2, type: 2}
