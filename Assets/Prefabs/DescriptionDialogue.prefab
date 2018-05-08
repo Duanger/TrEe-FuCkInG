@@ -419,10 +419,10 @@ MonoBehaviour:
   targetAudioSource: {fileID: 0}
   audioMode: 0
   beepSounds:
-  - {fileID: 8300000, guid: 74b30ebbe102f7d4295e11e2aacb049c, type: 3}
-  - {fileID: 8300000, guid: ff9e80222727f254c9fdc97c5ac6a392, type: 3}
-  - {fileID: 8300000, guid: 707ffc5668652e14c9edbf4ed5d25e5e, type: 3}
-  soundEffect: {fileID: 0}
+  - {fileID: 8300000, guid: 5098c4b5730f4dc4fa01821370425cf0, type: 3}
+  - {fileID: 8300000, guid: 0eeacf441b5134d4a9ff547c26fa2096, type: 3}
+  - {fileID: 8300000, guid: 9a135413740089247a625bd0fc8534a2, type: 3}
+  soundEffect: {fileID: 8300000, guid: 5098c4b5730f4dc4fa01821370425cf0, type: 3}
   inputSound: {fileID: 8300000, guid: 14a396b1562834718b2d52b9c4639264, type: 3}
 --- !u!114 &114732502833552752
 MonoBehaviour:
