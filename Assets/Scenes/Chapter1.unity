@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.4465934, g: 0.49642956, b: 0.5748249, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -499,19 +499,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 290.26947, y: -129.25708}
+  scrollPos: {x: 545.6158, y: -12.13311}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 0.7394787
+  zoom: 0.6024771
   scrollViewRect:
     serializedVersion: 2
     x: -343
     y: -340
     width: 1114
     height: 859
-  selectedBlocks:
-  - {fileID: 446358574}
+  selectedBlocks: []
   selectedCommands: []
   variables:
   - {fileID: 446358726}
@@ -754,9 +753,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 257.81815
-    y: 164.64543
-    width: 148.7182
+    x: 221.30219
+    y: 151.36694
+    width: 142.11969
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -915,7 +914,7 @@ MonoBehaviour:
   itemId: 5
   indentLevel: 0
   storyText: 'He passes Briar the cola  and takes a sip out of his own while the engine
-    sputters to a start, the rradio starting up with it.
+    sputters to a start, the radio starting up with it.
 
 
 '
@@ -992,9 +991,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 432.71063
-    y: 226.44432
-    width: 174.41196
+    x: 475.86578
+    y: 221.46484
+    width: 175.31598
     height: 40
   tint: {r: 0.6397059, g: 0.48918685, b: 0.61064017, a: 1}
   useCustomTint: 1
@@ -1114,7 +1113,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 244.85794
     y: 296.11102
-    width: 125.72902
+    width: 122.20192
     height: 40
   tint: {r: 0.6397059, g: 0, b: 0, a: 1}
   useCustomTint: 1
@@ -1381,7 +1380,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 258.31253
     y: 730.8725
-    width: 120.31981
+    width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1517,7 +1516,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 37
   indentLevel: 0
-  storyText: "Mabye. I'd like to believe there\u2019s some kind of force out there
+  storyText: "Maybe. I'd like to believe there\u2019s some kind of force out there
     that knows where this is going, but it's probably not this guy."
   description: 
   character: {fileID: 1799023055}
@@ -1950,7 +1949,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 661.73737
     y: 547.42615
-    width: 127.08133
+    width: 123.03182
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 1
@@ -2102,7 +2101,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1050.1202
     y: 272.1021
-    width: 158.18433
+    width: 151.24866
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 1
@@ -3713,7 +3712,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 144
   indentLevel: 0
-  storyText: "That\u2019s a very...Briar way of looking at things."
+  storyText: "That\u2019s a very... Briar way of looking at things."
   description: 
   character: {fileID: 1667063899}
   portrait: {fileID: 0}
@@ -4223,7 +4222,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 256
   indentLevel: 0
-  storyText: 'Nope. You suprisied? '
+  storyText: 'Nope. You suprised? '
   description: 
   character: {fileID: 1667063899}
   portrait: {fileID: 0}
@@ -5277,7 +5276,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 487.0511
     y: 157.4703
-    width: 125.72902
+    width: 122.20192
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6042,7 +6041,7 @@ Prefab:
     - target: {fileID: 224592126440668998, guid: b01d5f0781e7d9f458dd373d6ed645e2,
         type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -50
       objectReference: {fileID: 0}
     - target: {fileID: 224592126440668998, guid: b01d5f0781e7d9f458dd373d6ed645e2,
         type: 2}
@@ -6052,7 +6051,7 @@ Prefab:
     - target: {fileID: 224592126440668998, guid: b01d5f0781e7d9f458dd373d6ed645e2,
         type: 2}
       propertyPath: m_SizeDelta.y
-      value: 0
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 224914709329745190, guid: b01d5f0781e7d9f458dd373d6ed645e2,
         type: 2}
@@ -6072,7 +6071,7 @@ Prefab:
     - target: {fileID: 224914709329745190, guid: b01d5f0781e7d9f458dd373d6ed645e2,
         type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -155
       objectReference: {fileID: 0}
     - target: {fileID: 224914709329745190, guid: b01d5f0781e7d9f458dd373d6ed645e2,
         type: 2}
@@ -6082,7 +6081,7 @@ Prefab:
     - target: {fileID: 224914709329745190, guid: b01d5f0781e7d9f458dd373d6ed645e2,
         type: 2}
       propertyPath: m_SizeDelta.y
-      value: 0
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 224584579298253682, guid: b01d5f0781e7d9f458dd373d6ed645e2,
         type: 2}
@@ -6102,7 +6101,7 @@ Prefab:
     - target: {fileID: 224584579298253682, guid: b01d5f0781e7d9f458dd373d6ed645e2,
         type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -260
       objectReference: {fileID: 0}
     - target: {fileID: 224584579298253682, guid: b01d5f0781e7d9f458dd373d6ed645e2,
         type: 2}
@@ -6112,7 +6111,7 @@ Prefab:
     - target: {fileID: 224584579298253682, guid: b01d5f0781e7d9f458dd373d6ed645e2,
         type: 2}
       propertyPath: m_SizeDelta.y
-      value: 0
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 224566834728952922, guid: b01d5f0781e7d9f458dd373d6ed645e2,
         type: 2}
@@ -6132,7 +6131,7 @@ Prefab:
     - target: {fileID: 224566834728952922, guid: b01d5f0781e7d9f458dd373d6ed645e2,
         type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -340
       objectReference: {fileID: 0}
     - target: {fileID: 224566834728952922, guid: b01d5f0781e7d9f458dd373d6ed645e2,
         type: 2}
@@ -6142,12 +6141,12 @@ Prefab:
     - target: {fileID: 224566834728952922, guid: b01d5f0781e7d9f458dd373d6ed645e2,
         type: 2}
       propertyPath: m_SizeDelta.y
-      value: 0
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 224990378339418492, guid: b01d5f0781e7d9f458dd373d6ed645e2,
         type: 2}
       propertyPath: m_SizeDelta.y
-      value: 0
+      value: 365
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b01d5f0781e7d9f458dd373d6ed645e2, type: 2}

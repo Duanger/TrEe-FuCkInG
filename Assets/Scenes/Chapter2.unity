@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.4465934, g: 0.49642956, b: 0.5748249, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -1554,11 +1554,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -115.57274, y: -370.40887}
+  scrollPos: {x: 414.72073, y: 436.12366}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 404
-  zoom: 1
+  zoom: 0.5899979
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -1566,9 +1566,8 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1320476291}
-  selectedCommands:
-  - {fileID: 1320476366}
+  - {fileID: 1320476342}
+  selectedCommands: []
   variables: []
   description: 
   stepPause: 0
@@ -1606,7 +1605,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 3
   indentLevel: 0
-  storyText: "Briar comes out of the store, pulling his own bandanna over his face.\r\n"
+  storyText: "Briar comes out of the store, pulling his own bandana over his face.\r\n"
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -1632,8 +1631,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 2
   indentLevel: 0
-  storyText: Aspen lounges against the car outside of the gas station, a bandanna
-    around his mouth to keep the ash out.
+  storyText: Aspen lounges against the car outside of the gas station, a bandana around
+    his mouth to keep the ash out.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -1956,7 +1955,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 20
   indentLevel: 0
-  storyText: "What do we do though?\u2026If more places are shutting down?"
+  storyText: "What do we do though? \u2026If more places are shutting down?"
   description: 
   character: {fileID: 1163020748}
   portrait: {fileID: 21300000, guid: 6d274b9ef0c61274394613ffd48b06ba, type: 3}
@@ -2054,7 +2053,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 17
   indentLevel: 0
-  text: 'It makes me kinda sad actually. '
+  text: 'It makes me kinda sad, actually. '
   description: 
   targetBlock: {fileID: 1320476180}
   hideIfVisited: 0
@@ -2107,7 +2106,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 14
   indentLevel: 0
-  text: "Well I wouldn\u2019t go that far"
+  text: "Well, I wouldn\u2019t go that far."
   description: 
   targetBlock: {fileID: 1320476169}
   hideIfVisited: 0
@@ -2171,7 +2170,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 11
   indentLevel: 0
-  storyText: "Yeah, i suppose she\u2019s like you and doesn\u2019t care about money
+  storyText: "Yeah, I suppose she\u2019s like you and doesn\u2019t care about money
     anymore."
   description: 
   character: {fileID: 1163020748}
@@ -2474,7 +2473,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 56
   indentLevel: 0
-  storyText: Well someone has to take care of you.
+  storyText: Well, someone has to take care of you.
   description: 
   character: {fileID: 908365374}
   portrait: {fileID: 0}
@@ -2889,9 +2888,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 669
+    x: 667.30505
     y: 259
-    width: 126
+    width: 122.881615
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 1
@@ -4057,7 +4056,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 277.3087
     y: 240.30466
-    width: 122
+    width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4084,7 +4083,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 101
   indentLevel: 0
-  text: Oh you don't think it adds like, a very post-modern feel to it all?
+  text: Oh, you don't think it adds like, a very post-modern feel to it all?
   description: 
   targetBlock: {fileID: 1320476256}
   hideIfVisited: 0
@@ -4108,7 +4107,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 100
   indentLevel: 0
-  storyText: Yeah, cause the ash is so charming.
+  storyText: Yeah, 'cause the ash is so charming.
   description: 
   character: {fileID: 908365374}
   portrait: {fileID: 0}
@@ -4634,7 +4633,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 551.79205
     y: 77.545395
-    width: 133
+    width: 128.81384
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5746,9 +5745,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 671.2863
+    x: 672.98126
     y: 783.32306
-    width: 121
+    width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5823,7 +5822,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 576.36914
-    y: 722.8513
+    y: 724.54626
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -6283,7 +6282,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 943.56506
+    x: 945.26
     y: 643.55524
     width: 120
     height: 40
@@ -6324,7 +6323,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 782.39197
     y: 638.15
-    width: 141
+    width: 138.13591
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6452,8 +6451,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 159
   indentLevel: 0
-  storyText: Briar continues to clean out the tires, Aspen's occasional coughs breaking
-    the otherwise quiet.
+  storyText: Briar continues to clean out the tires, Aspen's occasional coughs cutting
+    through the silence.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -7375,7 +7374,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1320476383
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1320476157}
@@ -7393,7 +7392,7 @@ MonoBehaviour:
   sceneNameOLD: 
 --- !u!114 &1320476384
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1320476157}
