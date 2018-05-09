@@ -1480,6 +1480,7 @@ GameObject:
   - component: {fileID: 1320476369}
   - component: {fileID: 1320476368}
   - component: {fileID: 1320476383}
+  - component: {fileID: 1320476384}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -1553,7 +1554,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -20.572735, y: -625.4089}
+  scrollPos: {x: -115.57274, y: -370.40887}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 404
@@ -1565,9 +1566,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1320476321}
+  - {fileID: 1320476291}
   selectedCommands:
-  - {fileID: 1320476383}
+  - {fileID: 1320476366}
   variables: []
   description: 
   stepPause: 0
@@ -5342,7 +5343,7 @@ MonoBehaviour:
   interactable:
     booleanRef: {fileID: 0}
     booleanVal: 1
-  setMenuDialog: {fileID: 0}
+  setMenuDialog: {fileID: 794733669}
   hideThisOption:
     booleanRef: {fileID: 0}
     booleanVal: 0
@@ -5366,7 +5367,7 @@ MonoBehaviour:
   interactable:
     booleanRef: {fileID: 0}
     booleanVal: 1
-  setMenuDialog: {fileID: 0}
+  setMenuDialog: {fileID: 794733669}
   hideThisOption:
     booleanRef: {fileID: 0}
     booleanVal: 0
@@ -5390,7 +5391,7 @@ MonoBehaviour:
   interactable:
     booleanRef: {fileID: 0}
     booleanVal: 1
-  setMenuDialog: {fileID: 0}
+  setMenuDialog: {fileID: 794733669}
   hideThisOption:
     booleanRef: {fileID: 0}
     booleanVal: 0
@@ -5592,7 +5593,7 @@ MonoBehaviour:
   storyText: Briar heads over to the driver's side, but hesitates as he reaches for
     the door.
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1163020748}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -5728,7 +5729,7 @@ MonoBehaviour:
   interactable:
     booleanRef: {fileID: 0}
     booleanVal: 1
-  setMenuDialog: {fileID: 0}
+  setMenuDialog: {fileID: 794733669}
   hideThisOption:
     booleanRef: {fileID: 0}
     booleanVal: 0
@@ -5804,7 +5805,7 @@ MonoBehaviour:
   interactable:
     booleanRef: {fileID: 0}
     booleanVal: 1
-  setMenuDialog: {fileID: 0}
+  setMenuDialog: {fileID: 794733669}
   hideThisOption:
     booleanRef: {fileID: 0}
     booleanVal: 0
@@ -5833,6 +5834,7 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 1320476322}
+  - {fileID: 1320476384}
 --- !u!114 &1320476325
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -5853,7 +5855,7 @@ MonoBehaviour:
   interactable:
     booleanRef: {fileID: 0}
     booleanVal: 1
-  setMenuDialog: {fileID: 0}
+  setMenuDialog: {fileID: 794733669}
   hideThisOption:
     booleanRef: {fileID: 0}
     booleanVal: 0
@@ -5934,7 +5936,7 @@ MonoBehaviour:
   waitForClick: 1
   stopVoiceover: 1
   waitForVO: 0
-  setSayDialog: {fileID: 0}
+  setSayDialog: {fileID: 1673435109}
 --- !u!114 &1320476329
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -5986,7 +5988,7 @@ MonoBehaviour:
   waitForClick: 1
   stopVoiceover: 1
   waitForVO: 0
-  setSayDialog: {fileID: 0}
+  setSayDialog: {fileID: 1673435109}
 --- !u!114 &1320476331
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -6065,7 +6067,7 @@ MonoBehaviour:
   waitForClick: 1
   stopVoiceover: 1
   waitForVO: 0
-  setSayDialog: {fileID: 0}
+  setSayDialog: {fileID: 1673435109}
 --- !u!114 &1320476334
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -6143,7 +6145,7 @@ MonoBehaviour:
   waitForClick: 1
   stopVoiceover: 1
   waitForVO: 0
-  setSayDialog: {fileID: 0}
+  setSayDialog: {fileID: 1673435109}
 --- !u!114 &1320476337
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -6320,8 +6322,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 781.39197
-    y: 639.15
+    x: 782.39197
+    y: 638.15
     width: 141
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -7032,7 +7034,7 @@ MonoBehaviour:
   interactable:
     booleanRef: {fileID: 0}
     booleanVal: 1
-  setMenuDialog: {fileID: 0}
+  setMenuDialog: {fileID: 794733669}
   hideThisOption:
     booleanRef: {fileID: 0}
     booleanVal: 0
@@ -7056,7 +7058,7 @@ MonoBehaviour:
   interactable:
     booleanRef: {fileID: 0}
     booleanVal: 1
-  setMenuDialog: {fileID: 0}
+  setMenuDialog: {fileID: 794733669}
   hideThisOption:
     booleanRef: {fileID: 0}
     booleanVal: 0
@@ -7080,7 +7082,7 @@ MonoBehaviour:
   interactable:
     booleanRef: {fileID: 0}
     booleanVal: 1
-  setMenuDialog: {fileID: 0}
+  setMenuDialog: {fileID: 794733669}
   hideThisOption:
     booleanRef: {fileID: 0}
     booleanVal: 0
@@ -7383,6 +7385,24 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemId: 226
+  indentLevel: 0
+  _sceneName:
+    stringRef: {fileID: 0}
+    stringVal: Chapter3
+  loadingImage: {fileID: 0}
+  sceneNameOLD: 
+--- !u!114 &1320476384
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1320476157}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00d03ae0919f04264b018681ed534177, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 227
   indentLevel: 0
   _sceneName:
     stringRef: {fileID: 0}
