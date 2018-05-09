@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.4465934, g: 0.49642956, b: 0.5748249, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -819,7 +819,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 42
   indentLevel: 0
-  storyText: Not like, any Heaven bullshit but like - here. On real world and all
+  storyText: Not like any Heaven bullshit but like - here. In the real world and all
     that.
   description: 
   character: {fileID: 315084531}
@@ -846,7 +846,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 41
   indentLevel: 0
-  storyText: "I guess all of your afterlife talk got me thinking about, what\u2019s
+  storyText: "I guess all of your afterlife talk got me thinking about what\u2019s
     gonna happen after we\u2019re gone."
   description: 
   character: {fileID: 315084531}
@@ -975,7 +975,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 36
   indentLevel: 0
-  storyText: Not like, any Heaven bullshit but like - here. On real world and all
+  storyText: Not like any Heaven bullshit but like - here. In the real world and all
     that.
   description: 
   character: {fileID: 315084531}
@@ -1002,7 +1002,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 35
   indentLevel: 0
-  storyText: "I guess all of your afterlife talk got me thinking about, what\u2019s
+  storyText: "I guess all of your afterlife talk got me thinking about what\u2019s
     gonna happen after we\u2019re gone."
   description: 
   character: {fileID: 315084531}
@@ -1134,7 +1134,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 383.17145
     y: 99.918335
-    width: 141
+    width: 131.36067
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1162,7 +1162,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 381.07455
+    x: 379.62106
     y: 52.7745
     width: 120
     height: 40
@@ -1320,8 +1320,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 776.39136
-    y: 58.99713
+    x: 774.93787
+    y: 57.543648
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -1605,7 +1605,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 13
   indentLevel: 0
-  text: Does it matter? Can we just...not talk about it?
+  text: Does it matter? Can we just... not talk about it?
   description: 
   targetBlock: {fileID: 889391412}
   hideIfVisited: 0
@@ -1886,7 +1886,7 @@ MonoBehaviour:
   itemId: 2
   indentLevel: 0
   storyText: Briar and Aspen sit in the back of the car, curled against the seats.
-    They stare out of the back window, up at the night sky covered by roiling clouds
+    They stare out of the back window and up at the night sky covered by rolling clouds
     of ash and smog.
   description: 
   character: {fileID: 0}
@@ -1997,11 +1997,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -723.7245, y: 131.34015}
+  scrollPos: {x: -684.9349, y: 310.4508}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 404
-  zoom: 1
+  zoom: 0.67600226
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -2010,8 +2010,7 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 889391521}
-  selectedCommands:
-  - {fileID: 889391529}
+  selectedCommands: []
   variables: []
   description: 
   stepPause: 0
@@ -2049,7 +2048,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 60
   indentLevel: 0
-  text: I just wanted to make sure that you wanted to be doing this.
+  text: I just wanted to make sure that you wanted to be... here. With me.
   description: 
   targetBlock: {fileID: 889391476}
   hideIfVisited: 0
@@ -2911,7 +2910,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 71
   indentLevel: 0
-  storyText: Good, cause...so am I.
+  storyText: Good, 'cause...so am I.
   description: 
   character: {fileID: 315084531}
   portrait: {fileID: 0}
@@ -3041,7 +3040,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 66
   indentLevel: 0
-  text: I mean...sometimes I wish I were home instead.
+  text: I mean... sometimes I wish I were home instead.
   description: 
   targetBlock: {fileID: 889391471}
   hideIfVisited: 0
@@ -3185,7 +3184,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 62
   indentLevel: 0
-  text: I don't know. It had been a long day. I'm not sure why I asked.
+  text: I don't know. It- it had been a long day. I'm not sure why I asked.
   description: 
   targetBlock: {fileID: 889391476}
   hideIfVisited: 0
@@ -3211,7 +3210,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 953.7814
     y: 60.62732
-    width: 134
+    width: 123.22461
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3546,7 +3545,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1520.5037
     y: 50.340565
-    width: 168
+    width: 157.9878
     height: 40
   tint: {r: 0.9338235, g: 0.81022924, b: 0.92529976, a: 1}
   useCustomTint: 1
@@ -4271,7 +4270,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 1741.1536
-    y: 135.28383
+    y: 136.7631
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
