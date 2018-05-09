@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.4465934, g: 0.49642956, b: 0.5748249, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -352,6 +352,11 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b01d5f0781e7d9f458dd373d6ed645e2, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &38929956 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1634986013291436, guid: 1c59895eacc42544283367d28ce0a3c9,
+    type: 2}
+  m_PrefabInternal: {fileID: 1443954155}
 --- !u!1 &117423087
 GameObject:
   m_ObjectHideFlags: 0
@@ -733,7 +738,6 @@ GameObject:
   - component: {fileID: 889391508}
   - component: {fileID: 889391507}
   - component: {fileID: 889391506}
-  - component: {fileID: 889391505}
   - component: {fileID: 889391504}
   - component: {fileID: 889391503}
   - component: {fileID: 889391502}
@@ -767,14 +771,17 @@ GameObject:
   - component: {fileID: 889391544}
   - component: {fileID: 889391543}
   - component: {fileID: 889391542}
-  - component: {fileID: 889391512}
   - component: {fileID: 889391555}
   - component: {fileID: 889391554}
   - component: {fileID: 889391553}
-  - component: {fileID: 889391531}
   - component: {fileID: 889391530}
-  - component: {fileID: 889391500}
   - component: {fileID: 889391499}
+  - component: {fileID: 889391524}
+  - component: {fileID: 889391505}
+  - component: {fileID: 889391493}
+  - component: {fileID: 889391531}
+  - component: {fileID: 889391512}
+  - component: {fileID: 889391500}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -1134,7 +1141,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 383.17145
     y: 99.918335
-    width: 131.36067
+    width: 129.88138
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2010,7 +2017,8 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 889391521}
-  selectedCommands: []
+  selectedCommands:
+  - {fileID: 889391532}
   variables: []
   description: 
   stepPause: 0
@@ -3210,7 +3218,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 953.7814
     y: 60.62732
-    width: 123.22461
+    width: 122.48496
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3545,7 +3553,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1520.5037
     y: 50.340565
-    width: 157.9878
+    width: 156.50851
     height: 40
   tint: {r: 0.9338235, g: 0.81022924, b: 0.92529976, a: 1}
   useCustomTint: 1
@@ -3630,6 +3638,24 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 989436648}
+--- !u!114 &889391493
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 889391384}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00d03ae0919f04264b018681ed534177, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 316
+  indentLevel: 0
+  _sceneName:
+    stringRef: {fileID: 0}
+    stringVal: MainMenu
+  loadingImage: {fileID: 0}
+  sceneNameOLD: 
 --- !u!114 &889391494
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -3761,22 +3787,33 @@ MonoBehaviour:
   durationOLD: 0
 --- !u!114 &889391500
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 889391384}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 207aecf668a0345388087ccf522f9957, type: 3}
+  m_Script: {fileID: 11500000, guid: 5c6dd8d3a780f4d1ea772e3daf10c372, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 312
+  itemId: 319
   indentLevel: 0
-  duration: 2
-  targetAlpha: 1
-  waitUntilFinished: 1
-  fadeColor: {r: 0, g: 0, b: 0, a: 1}
-  fadeTexture: {fileID: 0}
+  targetObjects:
+  - {fileID: 38929956}
+  tweenType: 2
+  waitUntilFinished:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  duration:
+    floatRef: {fileID: 0}
+    floatVal: 2
+  fadeMode: 0
+  targetColor:
+    colorRef: {fileID: 0}
+    colorVal: {r: 1, g: 1, b: 1, a: 1}
+  targetAlpha:
+    floatRef: {fileID: 0}
+    floatVal: 0
 --- !u!114 &889391501
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -3883,30 +3920,22 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &889391505
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 889391384}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Script: {fileID: 11500000, guid: 00d03ae0919f04264b018681ed534177, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 260
+  itemId: 315
   indentLevel: 0
-  storyText: '***CREDITS/us/music/psa voice over (Olivia Posner)'
-  description: 
-  character: {fileID: 315084531}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
+  _sceneName:
+    stringRef: {fileID: 0}
+    stringVal: MainMenu
+  loadingImage: {fileID: 0}
+  sceneNameOLD: 
 --- !u!114 &889391506
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -4038,22 +4067,33 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &889391512
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 889391384}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 207aecf668a0345388087ccf522f9957, type: 3}
+  m_Script: {fileID: 11500000, guid: 5c6dd8d3a780f4d1ea772e3daf10c372, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 304
+  itemId: 318
   indentLevel: 0
-  duration: 2
-  targetAlpha: 1
-  waitUntilFinished: 1
-  fadeColor: {r: 0, g: 0, b: 0, a: 1}
-  fadeTexture: {fileID: 0}
+  targetObjects:
+  - {fileID: 38929956}
+  tweenType: 2
+  waitUntilFinished:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  duration:
+    floatRef: {fileID: 0}
+    floatVal: 2
+  fadeMode: 0
+  targetColor:
+    colorRef: {fileID: 0}
+    colorVal: {r: 1, g: 1, b: 1, a: 1}
+  targetAlpha:
+    floatRef: {fileID: 0}
+    floatVal: 0
 --- !u!114 &889391513
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -4269,7 +4309,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 1741.1536
+    x: 1738.1951
     y: 136.7631
     width: 120
     height: 40
@@ -4293,6 +4333,7 @@ MonoBehaviour:
   - {fileID: 889391527}
   - {fileID: 889391526}
   - {fileID: 889391525}
+  - {fileID: 889391493}
 --- !u!114 &889391522
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -4306,8 +4347,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 1747.9631
-    y: 62.31821
+    x: 1745.0046
+    y: 63.797497
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -4323,13 +4364,14 @@ MonoBehaviour:
   - {fileID: 889391548}
   - {fileID: 889391502}
   - {fileID: 889391501}
-  - {fileID: 889391531}
+  - {fileID: 889391512}
   - {fileID: 889391530}
   - {fileID: 889391498}
   - {fileID: 889391497}
   - {fileID: 889391496}
   - {fileID: 889391495}
   - {fileID: 889391494}
+  - {fileID: 889391524}
 --- !u!114 &889391523
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -4359,7 +4401,7 @@ MonoBehaviour:
   - {fileID: 889391515}
   - {fileID: 889391514}
   - {fileID: 889391513}
-  - {fileID: 889391512}
+  - {fileID: 889391531}
   - {fileID: 889391510}
   - {fileID: 889391511}
   - {fileID: 889391509}
@@ -4367,6 +4409,24 @@ MonoBehaviour:
   - {fileID: 889391508}
   - {fileID: 889391506}
   - {fileID: 889391505}
+--- !u!114 &889391524
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 889391384}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00d03ae0919f04264b018681ed534177, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 314
+  indentLevel: 0
+  _sceneName:
+    stringRef: {fileID: 0}
+    stringVal: MainMenu
+  loadingImage: {fileID: 0}
+  sceneNameOLD: 
 --- !u!114 &889391525
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -4498,22 +4558,33 @@ MonoBehaviour:
   durationOLD: 0
 --- !u!114 &889391531
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 889391384}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 207aecf668a0345388087ccf522f9957, type: 3}
+  m_Script: {fileID: 11500000, guid: 5c6dd8d3a780f4d1ea772e3daf10c372, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 309
+  itemId: 317
   indentLevel: 0
-  duration: 2
-  targetAlpha: 1
-  waitUntilFinished: 1
-  fadeColor: {r: 0, g: 0, b: 0, a: 1}
-  fadeTexture: {fileID: 0}
+  targetObjects:
+  - {fileID: 38929956}
+  tweenType: 2
+  waitUntilFinished:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  duration:
+    floatRef: {fileID: 0}
+    floatVal: 2
+  fadeMode: 0
+  targetColor:
+    colorRef: {fileID: 0}
+    colorVal: {r: 1, g: 1, b: 1, a: 1}
+  targetAlpha:
+    floatRef: {fileID: 0}
+    floatVal: 0
 --- !u!114 &889391532
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -5822,12 +5893,27 @@ Prefab:
     - target: {fileID: 20519503313460888, guid: 2ae80a70a26ac584bbc5321469958402,
         type: 2}
       propertyPath: m_BackGroundColor.a
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 20519503313460888, guid: 2ae80a70a26ac584bbc5321469958402,
         type: 2}
       propertyPath: m_ClearFlags
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 20519503313460888, guid: 2ae80a70a26ac584bbc5321469958402,
+        type: 2}
+      propertyPath: m_BackGroundColor.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 20519503313460888, guid: 2ae80a70a26ac584bbc5321469958402,
+        type: 2}
+      propertyPath: m_BackGroundColor.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 20519503313460888, guid: 2ae80a70a26ac584bbc5321469958402,
+        type: 2}
+      propertyPath: m_BackGroundColor.b
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2ae80a70a26ac584bbc5321469958402, type: 2}

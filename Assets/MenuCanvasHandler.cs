@@ -11,7 +11,7 @@ public class MenuCanvasHandler : MonoBehaviour
 	private Text _play;
 	void Start ()
 	{
-		_play = GameObject.Find("Play").GetComponent<Text>();
+		_play = GameObject.Find("Text").GetComponent<Text>();
 	}
 	
 	// Update is called once per frame
