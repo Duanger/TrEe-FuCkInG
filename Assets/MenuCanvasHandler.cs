@@ -2,28 +2,34 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class MenuCanvasHandler : MonoBehaviour
 {
 
 	public float _timeToChangeScene;
-	void Start () {
-		
+	private Text _play;
+	void Start ()
+	{
+		_play = GameObject.Find("Play").GetComponent<Text>();
 	}
 	
 	// Update is called once per frame
 	void Update () {
-		
+		if (_play.canvasRenderer.GetAlpha() == 0)
+		{
+			SceneManager.LoadScene(1);
+		}
 	}
 
 	public void OnClickPlay()
 	{
-			StartCoroutine(WaitAndChange(_timeToChangeScene));
+			WaitAndChange(_timeToChangeScene);
 	}
 
-	IEnumerator WaitAndChange(float time)
+	private void WaitAndChange(float time)
 	{
-		yield return new WaitForSeconds(time);
-		SceneManager.LoadScene(1);
+		_play.CrossFadeAlpha(0,time,false);
+		
 	}
 }
