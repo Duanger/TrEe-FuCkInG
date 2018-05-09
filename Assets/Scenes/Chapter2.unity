@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.4465934, g: 0.49642956, b: 0.5748249, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -1554,11 +1554,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 414.72073, y: 436.12366}
+  scrollPos: {x: 288.0664, y: -234.61987}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 404
-  zoom: 0.5899979
+  zoom: 0.7399978
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -1566,8 +1566,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1320476342}
-  selectedCommands: []
+  - {fileID: 1320476296}
+  selectedCommands:
+  - {fileID: 1320476287}
   variables: []
   description: 
   stepPause: 0
@@ -2890,7 +2891,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 667.30505
     y: 259
-    width: 122.881615
+    width: 121.62183
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 1
@@ -4633,7 +4634,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 551.79205
     y: 77.545395
-    width: 128.81384
+    width: 129.72997
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4873,7 +4874,7 @@ MonoBehaviour:
   waitForClick: 1
   stopVoiceover: 1
   waitForVO: 0
-  setSayDialog: {fileID: 0}
+  setSayDialog: {fileID: 1673435109}
 --- !u!114 &1320476288
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -5102,7 +5103,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 875.0127
+    x: 870.95856
     y: 316.82614
     width: 120
     height: 40
@@ -6321,9 +6322,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 782.39197
+    x: 781.09326
     y: 638.15
-    width: 138.13591
+    width: 137.8381
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
